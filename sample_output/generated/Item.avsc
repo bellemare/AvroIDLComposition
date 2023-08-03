@@ -1,0 +1,12 @@
+{
+  "type" : "record",
+  "name" : "Item",
+  "namespace" : "org.company.domain.base",
+  "fields" : [ {
+    "name" : "itemId",
+    "type" : "long"
+  }, {
+    "name" : "brand",
+    "type" : "string"
+  } ]
+}

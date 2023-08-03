@@ -1,0 +1,47 @@
+{
+  "type" : "record",
+  "name" : "ItemClick",
+  "fields" : [ {
+    "name" : "user",
+    "type" : {
+      "type" : "record",
+      "name" : "User",
+      "namespace" : "org.company.domain.base",
+      "fields" : [ {
+        "name" : "userId",
+        "type" : "string"
+      }, {
+        "name" : "address",
+        "type" : "string"
+      }, {
+        "name" : "phoneNumber",
+        "type" : "string"
+      }, {
+        "name" : "timestamp",
+        "type" : "string"
+      } ]
+    }
+  }, {
+    "name" : "item",
+    "type" : {
+      "type" : "record",
+      "name" : "Item",
+      "namespace" : "org.company.domain.base",
+      "fields" : [ {
+        "name" : "itemId",
+        "type" : "long"
+      }, {
+        "name" : "brand",
+        "type" : "string"
+      } ]
+    }
+  }, {
+    "name" : "someLocalStringField",
+    "type" : "string",
+    "default" : "default"
+  }, {
+    "name" : "someLocalIntField",
+    "type" : "int",
+    "default" : -1
+  } ]
+}

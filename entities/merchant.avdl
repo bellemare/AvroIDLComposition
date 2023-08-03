@@ -1,0 +1,7 @@
+@namespace("org.company.domain.base")
+protocol Merchant {
+  record Merchant {
+    long merchantId;
+    string name;
+  }
+}

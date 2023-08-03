@@ -1,0 +1,18 @@
+{
+  "type" : "record",
+  "name" : "User",
+  "namespace" : "org.company.domain.base",
+  "fields" : [ {
+    "name" : "userId",
+    "type" : "string"
+  }, {
+    "name" : "address",
+    "type" : "string"
+  }, {
+    "name" : "phoneNumber",
+    "type" : "string"
+  }, {
+    "name" : "timestamp",
+    "type" : "string"
+  } ]
+}

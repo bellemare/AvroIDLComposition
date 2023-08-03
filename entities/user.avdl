@@ -1,0 +1,10 @@
+@namespace("org.company.domain.base")
+protocol User {
+  record User {
+    string userId;
+    string address;
+    string phoneNumber;
+    string timestamp;
+  }
+}
+

@@ -1,0 +1,8 @@
+@namespace("org.company.domain.base")
+protocol Page {
+  record Page {
+    string pageUUID;
+    string baseUrl;
+    string subdomain;
+  }
+}

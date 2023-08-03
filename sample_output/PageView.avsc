@@ -1,0 +1,64 @@
+{
+  "type" : "record",
+  "name" : "PageView",
+  "fields" : [ {
+    "name" : "user",
+    "type" : {
+      "type" : "record",
+      "name" : "User",
+      "namespace" : "org.company.domain.base",
+      "fields" : [ {
+        "name" : "userId",
+        "type" : "string"
+      }, {
+        "name" : "address",
+        "type" : "string"
+      }, {
+        "name" : "phoneNumber",
+        "type" : "string"
+      }, {
+        "name" : "timestamp",
+        "type" : "string"
+      } ]
+    }
+  }, {
+    "name" : "merchant",
+    "type" : {
+      "type" : "record",
+      "name" : "Merchant",
+      "namespace" : "org.company.domain.base",
+      "fields" : [ {
+        "name" : "merchantId",
+        "type" : "long"
+      }, {
+        "name" : "name",
+        "type" : "string"
+      } ]
+    }
+  }, {
+    "name" : "page",
+    "type" : {
+      "type" : "record",
+      "name" : "Page",
+      "namespace" : "org.company.domain.base",
+      "fields" : [ {
+        "name" : "pageUUID",
+        "type" : "string"
+      }, {
+        "name" : "baseUrl",
+        "type" : "string"
+      }, {
+        "name" : "subdomain",
+        "type" : "string"
+      } ]
+    }
+  }, {
+    "name" : "someLocalStringField",
+    "type" : "string",
+    "default" : "default"
+  }, {
+    "name" : "someLocalIntField",
+    "type" : "int",
+    "default" : -1
+  } ]
+}

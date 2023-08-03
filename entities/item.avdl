@@ -1,0 +1,7 @@
+@namespace("org.company.domain.base")
+protocol Item {
+  record Item {
+    long itemId;
+    string brand;
+  }
+}

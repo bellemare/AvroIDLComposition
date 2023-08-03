@@ -1,0 +1,13 @@
+protocol PageView {  
+  import idl "../entities/user.avdl";
+  import idl "../entities/merchant.avdl";
+  import idl "../entities/page.avdl";
+
+  record PageView {
+    org.company.domain.base.User user;
+    org.company.domain.base.Merchant merchant;
+    org.company.domain.base.Page page;
+    string someLocalStringField = "default";
+    int someLocalIntField = -1;
+  }
+}

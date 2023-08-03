@@ -1,0 +1,12 @@
+{
+  "type" : "record",
+  "name" : "Merchant",
+  "namespace" : "org.company.domain.base",
+  "fields" : [ {
+    "name" : "merchantId",
+    "type" : "long"
+  }, {
+    "name" : "name",
+    "type" : "string"
+  } ]
+}

@@ -1,0 +1,15 @@
+{
+  "type" : "record",
+  "name" : "Page",
+  "namespace" : "org.company.domain.base",
+  "fields" : [ {
+    "name" : "pageUUID",
+    "type" : "string"
+  }, {
+    "name" : "baseUrl",
+    "type" : "string"
+  }, {
+    "name" : "subdomain",
+    "type" : "string"
+  } ]
+}

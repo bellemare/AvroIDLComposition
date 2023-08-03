@@ -1,0 +1,11 @@
+protocol ItemClick {
+  import idl "../entities/user.avdl";
+  import idl "../entities/item.avdl";
+
+  record ItemClick {
+    org.company.domain.base.User user;
+    org.company.domain.base.Item item;
+    string someLocalStringField = "default";
+    int someLocalIntField = -1;
+  }
+}
